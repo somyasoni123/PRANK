@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Error</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8d7da;
+            color: #721c24;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .error-box {
+            border: 2px solid #f5c6cb;
+            padding: 20px;
+            background-color: #f8d7da;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-box">
+        <h1>System Error</h1>
+        <p>Your device has encountered a critical error. Please restart your phone.</p>
+        <p><strong>Error Code:</strong> 0x80070005</p>
+    </div>
+    <script>
+        setTimeout(function() {
+            alert("Just kidding! You've been pranked!");
+        }, 5000);
+    </script>
+</body>
+</html>
